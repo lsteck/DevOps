@@ -5,6 +5,8 @@
         <wb-resource deploy-path="/" source-path="/apps/DoubleStepAuth/common"/>
         <wb-resource deploy-path="/" source-path="/apps/SingleStepAuth/iphone"/>
         <wb-resource deploy-path="/" source-path="/apps/DoubleStepAuth/iphone"/>
+        <wb-resource deploy-path="/" source-path="/apps/HybridAdapterAuth/android"/>
+        <wb-resource deploy-path="/" source-path="/apps/HybridAdapterAuth/iphone"/>
         <property name="context-root" value="AdapterBasedAuth"/>
     </wb-module>
 </project-modules>
