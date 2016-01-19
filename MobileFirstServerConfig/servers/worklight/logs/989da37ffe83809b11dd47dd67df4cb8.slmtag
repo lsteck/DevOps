@@ -265,3 +265,30 @@
 		<EndTime>2016-01-18T23:26:17-06:00</EndTime>
 	</Period>
 </Metric>
+<Metric logTime="2016-01-18T23:37:01-06:00">
+	<Type>CLIENT_DEVICE</Type>
+	<SubType>Development Server</SubType>
+	<Value>2</Value>
+	<Period>
+		<StartTime>2016-01-18T23:37:01-06:00</StartTime>
+		<EndTime>2016-01-18T23:37:01-06:00</EndTime>
+	</Period>
+</Metric>
+<Metric logTime="2016-01-18T23:37:01-06:00">
+	<Type>APPLICATION</Type>
+	<SubType>Development Server</SubType>
+	<Value>1</Value>
+	<Period>
+		<StartTime>2016-01-18T23:37:01-06:00</StartTime>
+		<EndTime>2016-01-18T23:37:01-06:00</EndTime>
+	</Period>
+</Metric>
+<Metric logTime="2016-01-18T23:37:01-06:00">
+	<Type>ADDRESSABLE_DEVICE</Type>
+	<SubType>Application: HybridAdapterAuth Category: UNDEFINED (Development Server)</SubType>
+	<Value>1</Value>
+	<Period>
+		<StartTime>2016-01-18T23:37:01-06:00</StartTime>
+		<EndTime>2016-01-18T23:37:01-06:00</EndTime>
+	</Period>
+</Metric>
