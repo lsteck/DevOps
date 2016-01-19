@@ -627,3 +627,35 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.core.jobs 2 2 2016-01-18 22:03:11.388
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.server.core.internal.Server$StopJob
+!SESSION 2016-01-18 22:16:57.081 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/lsteck/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/lsteck/ws/ews/WorkspacesLSR2MFP710/CITutorial/dev -product org.eclipse.epp.package.jee.product -keyring /Users/lsteck/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2016-01-18 22:17:02.092
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-18 22:17:02.092
+!MESSAGE A conflict occurred for COMMAND+SHIFT+-:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(com.ibm.etools.rpe.ZoomOut,ZoomOut,
+		,
+		Category(com.ibm.etools.rpe.category,Rich Page Editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d31b8fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b68096e,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@5b431a9b,,true),[Lorg.eclipse.core.commands.Parameterization;@1287e4ec),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY com.worklight.studio.plugin 4 0 2016-01-18 22:24:20.037
+!MESSAGE Failed importing native project for 'Android phones and tablets'. Missing ADT plugin or Android SDK. For more details see http://developer.android.com/sdk/eclipse-adt.html.If 
+you are using Android Studio, specify path in Window | Preferences | MobileFirst 

@@ -1,0 +1,25 @@
+#Deployment data.
+#Mon Jan 18 22:24:19 CST 2016
+app.android.shareduserid=
+app.target.category=UNDEFINED
+app.authenticity.obscuredata=18.542-8.464-12.591-28.283-32.916-38.088-18.498-33.868-5.72-40.204-5.185-26.933
+app.description=HybridAdapterAuth
+app.checksum.default=3153671940
+app.unpacked.size.default=1341211
+app.user.identity.realms=AuthRealm
+platform.version=7.1.0.00.20151023-1441
+app.build.time=1453177459086
+app.displayname=HybridAdapterAuth
+app.login.displaytype=EMBEDDED
+app.version=1.0
+app.id=HybridAdapterAuth
+app.login.popup.height=610
+app.author.email=application author's e-mail
+app.android.package.name=
+native=188543705
+app.login.popup.width=920
+app.license.type=APPLICATION
+app.environment=android
+app.android.public.signing.key=
+app.mainfile=index.html
+app.author.name=application's author
