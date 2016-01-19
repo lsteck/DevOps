@@ -372,3 +372,17 @@ INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Larrys-MacBook-Pro.lo
 DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
 INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183285518,0)
 COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183315528,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183315528,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183315528,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183345535,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183345535,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Larrys-MacBook-Pro.local:2974f4a6bcae1504:32936647:1525861bb96:-7ffe',1453183345535,0)
+COMMIT
